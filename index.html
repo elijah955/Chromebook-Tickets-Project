@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Submit Chromebook Tickets</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="all">
+      <div id="top">
+        <h1>Chromebook Repair Tickets</h1>
+        <hr>
+        <img src="sdj.jpg">
+      </div>
+      <div id="dataField">
+        <input type="text" id="enterNumber" placeholder="#####">
+        <button id="enter" onclick="saveToFile()">Enter</button>
+      </div>
+      <div>
+        <input type="radio" id="SolarWindsTicket" name="dataType">
+          <label for="SolarWindsTicket">SolarWinds Ticket #</label>
+        <input type="radio" id="AssetTag" name="dataType">
+          <label for="AssetTag">Asset Tag</label>
+      </div>
+      <div id="functionButtons"></div>
+        <button id="TRA">Create TRA Tickets</button>
+        <button id="print">Print Ticket Slips</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
